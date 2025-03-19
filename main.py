@@ -11,7 +11,7 @@ def busca_tempo():
     temp_atual = navegador.find_element(By.XPATH, '/html/body/div/div[7]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div/div').text
     print(f"A temperatura de hoje é de {temp_atual}")
 
-    umidade_atual = navegador.find_element(By.XPATH, '/html/body/div/div[7]/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]').text
+    umidade_atual = navegador.find_element(By.XPATH, '/html/body/div/div[7]/div[1]/div[1]/div[2]/div[3]/div[6]/div[2]').text
     print(f"A umidade do ar é de {umidade_atual}")
 
     hora_atual = navegador.find_element(By.XPATH, '/html/body/div/div[7]/div[1]/div[1]/div[2]/div[1]/p').text
